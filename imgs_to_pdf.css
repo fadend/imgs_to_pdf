@@ -1,0 +1,6 @@
+#carousel {
+  height: 100px;
+}
+#carousel img {
+  max-height: 100px;
+}

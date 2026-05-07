@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Images to PDF</title>
+    <link rel="stylesheet" href="imgs_to_pdf.css" />
+  </head>
+  <body>
+    <label>
+      Select the image files to include:
+      <input
+        type="file"
+        accept="image/jpeg,image/png"
+        multiple="multiple"
+        id="files"
+      />
+    </label>
+    <div id="carousel"></div>
+    <div><a id="pdf-link" download="imgs_to_pdf.pdf"></a></div>
+    <script src="https://unpkg.com/pdf-lib@1.4.0/dist/pdf-lib.min.js"></script>
+    <script src="imgs_to_pdf.js"></script>
+  </body>
+</html>
